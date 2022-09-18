@@ -1,0 +1,633 @@
+08-31 19:50:37.077 19225 19284 I TestRunner: started: order_reset_after_cancel_from_side_menu(com.example.lunchtray.OrderFunctionalityTests)
+08-31 19:50:37.079 15119 15127 I ndroid.systemu: NativeAlloc concurrent copying GC freed 20710(1209KB) AllocSpace objects, 0(0B) LOS objects, 30% free, 27MB/39MB, paused 372us,137us total 200.071ms
+08-31 19:50:37.080 15119 15309 D OpenGLRenderer: setSurface called with nullptr
+08-31 19:50:37.080   634   661 I SurfaceFlinger: id=151882 Removed Surface(name=f19ee80 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x3028b7b - animation-leash of starting_reveal#0 (115)
+08-31 19:50:37.080 15119 15309 D OpenGLRenderer: setSurface called with nullptr
+08-31 19:50:37.081   634   661 I SurfaceFlinger: id=151909 Removed Surface(name=e149839 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity)/@0x93bd718 - animation-leash of starting_reveal#0 (115)
+08-31 19:50:37.081 15119 15129 W System  : A resource failed to call release.
+08-31 19:50:37.082   634   661 I SurfaceFlinger: id=151842 Removed Task=1229#0 (115)
+08-31 19:50:37.083 15119 15129 W System  : A resource failed to call release.
+08-31 19:50:37.083 15119 15129 W System  : A resource failed to call close.
+08-31 19:50:37.083 15119 15129 W System  : A resource failed to call close.
+08-31 19:50:37.084   634   661 I SurfaceFlinger: id=151869 Removed Task=1230#0 (115)
+08-31 19:50:37.092   634   634 I Layer   : id=151882 Destroyed Surface(name=f19ee80 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x3028b7b - animation-leash of starting_reveal#0
+08-31 19:50:37.092   634   634 I Layer   : id=151869 Destroyed Task=1230#0
+08-31 19:50:37.092   634   634 I Layer   : id=151909 Destroyed Surface(name=e149839 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity)/@0x93bd718 - animation-leash of starting_reveal#0
+08-31 19:50:37.092   634   634 I Layer   : id=151842 Destroyed Task=1229#0
+08-31 19:50:37.096 19225 19284 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-31 19:50:37.110 14809 15928 D PkgPredictorService-IpmAdcpController: create a new DexPreloadTask pkg:com.example.lunchtray  path:/data/app/~~gbmHt4QFZFuUz7nOvKmpFQ==/com.example.lunchtray-THkiE5ocQARudvzX67_P5w==
+08-31 19:50:37.111 14809 15454 I SemDvfsHyPerManager: acquire hyper - AMS_APP_SWITCH/14809@27, type = -999
+08-31 19:50:37.111 14617 14637 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 110060893  [14809 / 27]    HINT : AMS_APP_SWITCH    list :
+08-31 19:50:37.112   634  1925 I SurfaceFlinger: id=151923 createSurf (0x0),-1 flag=24004, Task=1232#0
+08-31 19:50:37.114 16623 16623 I SemDvfsHyPerManager: acquire hyper - APP_START_SHORT/16623@15, type = -999
+08-31 19:50:37.115 14617 14637 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 138419856  [16623 / 15]    HINT : APP_START    list : [TIMEOUT / 1500]
+08-31 19:50:37.116   634  1925 I SurfaceFlinger: id=151924 createSurf (0x0),-1 flag=80004, ActivityRecord{41d16aa u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t1232}#0
+08-31 19:50:37.124 14809 17474 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/14809@13, type = -999
+08-31 19:50:37.124 14617 14637 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 109853266  [14809 / 13]    HINT : AMS_APP_LAUNCH    list :
+08-31 19:50:37.125 16623 16623 I SemDvfsHyPerManager: acquire hyper - APP_START/16623@16, type = -999
+08-31 19:50:37.127 14617 14637 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 138436496  [16623 / 16]    HINT : APP_START    list :
+08-31 19:50:37.130 15577 15577 I BaseActivity: removeActivityFlags, flags : 16
+08-31 19:50:37.131 15577 15577 I BaseActivity: removeActivityFlags, flags : 6
+08-31 19:50:37.131 15577 15577 I DragController: endDrag
+08-31 19:50:37.131 15577 15577 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:15 flag:resume on:false isFront:false
+08-31 19:50:37.132 15119 15119 D PipMotionHelper: animateToOffset: originalBounds=Rect(495, 2017 - 1035, 2321) offset=0 callers=
+08-31 19:50:37.132 15119 15119 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipTouchHandler.onMovementBoundsChanged:482
+08-31 19:50:37.132 15119 15119 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController.updateMovementBounds:712
+08-31 19:50:37.132 15119 15119 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController.lambda$init$3:351
+08-31 19:50:37.132 15119 15119 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController.$r8$lambda$u15Oj_b57njSWegfZTV6TpliGaw:0
+08-31 19:50:37.132 15119 15119 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController$$ExternalSyntheticLambda0.accept:8
+08-31 19:50:37.132 15577 15577 I DecorView: notifyKeepScreenOnChanged: keepScreenOn=false
+08-31 19:50:37.133 15577 15577 I SPayUpdater: updateSpayHandler launcher activity is paused false
+08-31 19:50:37.133 14809 15283 D InputTransport: Input channel constructed: 'e8df376', fd=687
+08-31 19:50:37.133 14809 15283 D InputTransport: Input channel constructed: 'e8df376', fd=695
+08-31 19:50:37.133 14809 15283 D InputTransport: Input channel constructed: 'e8df376', fd=714
+08-31 19:50:37.134   634  1925 I SurfaceFlinger: id=151925 createSurf (0x0),-1 flag=80004, e8df376 Splash Screen com.example.lunchtray#0
+08-31 19:50:37.136 14809 15283 D InputTransport: Input channel destroyed: 'e8df376', fd=714
+08-31 19:50:37.136 15119 15246 I ViewRootImpl@359e831[lunchtray]: setView = android.widget.FrameLayout@c064e84 TM=true
+08-31 19:50:37.146 14809 15340 D InputDispatcher: Focused application set to (0): 41d16aa
+08-31 19:50:37.155 14809 15283 V WindowManager: Relayout Window{e8df376 u0 Splash Screen com.example.lunchtray}: viewVisibility=0 req=1080x2408 d0
+08-31 19:50:37.156   634  1925 I SurfaceFlinger: id=151926 createSurf (1080x2408),-3 flag=40004, Splash Screen com.example.lunchtray$_15119#0
+08-31 19:50:37.160 14809 17474 D InputDispatcher: Focus left window (0): d738cd4 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+08-31 19:50:37.161 14809 15283 V WindowManager: Relayout hash=e8df376, pid=15119: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+08-31 19:50:37.161 14809 15283 V WindowManager:   fl=81030118
+08-31 19:50:37.161 14809 15283 V WindowManager:   pfl=36000010
+08-31 19:50:37.161 14809 15283 V WindowManager:   bhv=DEFAULT
+08-31 19:50:37.161 14809 15283 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:37.161 14809 15340 V WindowManager: Relayout Window{d738cd4 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2408 d0
+08-31 19:50:37.163 15119 15246 I ViewRootImpl@359e831[lunchtray]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)0 dur=19 res=0x7 s={true 3141377024} ch=true fn=-1
+08-31 19:50:37.164 15119 15309 D OpenGLRenderer: eglCreateWindowSurface
+08-31 19:50:37.166 15119 15246 I ViewRootImpl@359e831[lunchtray]: [DP] dp(1) 0 android.view.ViewRootImpl.reportNextDraw:11410 android.view.ViewRootImpl.performTraversals:4185 android.view.ViewRootImpl.doTraversal:2911
+08-31 19:50:37.166 15119 15246 D ViewRootImpl@359e831[lunchtray]: Creating frameDrawingCallback nextDrawUseBlastSync=false reportNextDraw=true hasBlurUpdates=false
+08-31 19:50:37.166 15119 15246 D ViewRootImpl@359e831[lunchtray]: Creating frameCompleteCallback
+08-31 19:50:37.166 14809 15340 V WindowManager: Relayout hash=d738cd4, pid=15577: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+08-31 19:50:37.166 14809 15340 V WindowManager:   fl=81910100
+08-31 19:50:37.166 14809 15340 V WindowManager:   pfl=1e020040
+08-31 19:50:37.166 14809 15340 V WindowManager:   vsysui=1700
+08-31 19:50:37.166 14809 15340 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+08-31 19:50:37.166 14809 15340 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:37.167 15577 15577 I ViewRootImpl@6da1f4c[LauncherActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)0 dur=12 res=0x1 s={true 3225331712} ch=false fn=10
+08-31 19:50:37.168 15577 15577 I ViewRootImpl@6da1f4c[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+08-31 19:50:37.168 15577 15577 I BaseActivity: removeActivityFlags, flags : 8
+08-31 19:50:37.169 19225 19225 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427 in: PRE_ON_CREATE
+08-31 19:50:37.170 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.171 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.176 15577 15577 I BadgeRenderer: Invalid count : 0
+08-31 19:50:37.178 15119 15828 D ViewRootImpl@359e831[lunchtray]: Received frameDrawingCallback frameNum=1. Creating transactionCompleteCallback=false
+08-31 19:50:37.178 15577 15577 I BadgeRenderer: Invalid count : 0
+08-31 19:50:37.180 15577 15577 I BadgeRenderer: Invalid count : 0
+08-31 19:50:37.183 15119 15309 D ViewRootImpl@359e831[lunchtray]: Received frameCompleteCallback  lastAcquiredFrameNum=1 lastAttemptedDrawFrameNum=1
+08-31 19:50:37.184 14809 14828 I SemPersonaManager: SecureFolder personaId = 10
+08-31 19:50:37.185 15119 15246 I ViewRootImpl@359e831[lunchtray]: [DP] pdf(0) 0 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4987 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+08-31 19:50:37.185 15119 15246 I ViewRootImpl@359e831[lunchtray]: [DP] rdf()
+08-31 19:50:37.185 15119 15246 D ViewRootImpl@359e831[lunchtray]: reportDrawFinished (fn: -1)
+08-31 19:50:37.191 19225 19225 I DecorView: [INFO] isPopOver=false, config=true
+08-31 19:50:37.191 19225 19225 I DecorView: updateCaptionType >> DecorView@188ebc3[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+08-31 19:50:37.191 19225 19225 D DecorView: setCaptionType = 0, this = DecorView@188ebc3[]
+08-31 19:50:37.192 15119 15119 D FullscreenTaskListener: Fullscreen Task Appeared: #1232, caller=com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:387 com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:376 android.window.TaskOrganizer$1.lambda$onTaskAppeared$4$TaskOrganizer$1:297
+08-31 19:50:37.194   634  1925 I SurfaceFlinger: id=151927 createSurf (0x0),-1 flag=24000, Surface(name=Task=1)/@0x7c9ef10 - animation-leash of app_transition#0
+08-31 19:50:37.197 14809 14828 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.android.knox.containercore
+08-31 19:50:37.199   634  1925 I SurfaceFlinger: id=151928 createSurf (0x0),-1 flag=24004, Surface(name=Task=1232)/@0x34908bd - animation-leash of app_transition#0
+08-31 19:50:37.199 19225 19225 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=450 msg=resources_loaded
+08-31 19:50:37.201 19225 19225 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427 in: CREATED
+08-31 19:50:37.203 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.203   634   661 I SurfaceFlinger: id=151929 createSurf (0x0),-1 flag=24000, Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#0
+08-31 19:50:37.204 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.204   634  1925 I SurfaceFlinger: id=151930 createSurf (0x0),-1 flag=24000, Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#0
+08-31 19:50:37.208 15577 29018 I TouchInteractionService: onSystemUiStateChanged, stateFlags : 131072
+08-31 19:50:37.208 15577 15577 W SGestureOverlayWindow: setVisibilityGestureOverlayWindow, visibility = 0
+08-31 19:50:37.208 15577 15577 I TouchInteractionService: onSystemUiFlagsChanged, userUnlocked
+08-31 19:50:37.209 15119 15246 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on Splash Screen com.example.lunchtray
+08-31 19:50:37.209   634   634 I Layer   : id=151914 removeFromCurrentState Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#1 (119)
+08-31 19:50:37.209   634   634 I Layer   : id=151915 removeFromCurrentState Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#1 (119)
+08-31 19:50:37.210 15119 15246 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on Splash Screen com.example.lunchtray
+08-31 19:50:37.210 19225 19225 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427 in: STARTED
+08-31 19:50:37.211   634   661 I SurfaceFlinger: id=151915 Removed Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#1 (119)
+08-31 19:50:37.211   634   661 I SurfaceFlinger: id=151914 Removed Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#1 (119)
+08-31 19:50:37.212 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.213 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.219   634   662 I SurfaceFlinger: id=151931 createSurf (0x0),-1 flag=80004, ActivityRecord{b10d5ac u0 com.example.lunchtray/.MainActivity t1232}#0
+08-31 19:50:37.225 15119 15134 I ViewRootImpl@359e831[lunchtray]: Resizing android.view.ViewRootImpl@8b3d66d: frame=[0,0][1080,2408] reportDraw=false forceLayout=false backDropFrame=Rect(0, 0 - 1080, 2408)
+08-31 19:50:37.225   634   634 I Layer   : id=151915 Destroyed Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#1
+08-31 19:50:37.225   634   634 I Layer   : id=151914 Destroyed Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#1
+08-31 19:50:37.226 19225 19225 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427 in: RESUMED
+08-31 19:50:37.226 15119 15246 I ViewRootImpl@359e831[lunchtray]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2408] display=[0,0][1080,2408] backdrop=[0,0][1080,2408]} forceNextWindowRelayout=false displayId=0 frameChanged=false backdropFrameChanged=false configChanged=false displayChanged=false mNextDrawUseBlastSync=false mergedConfiguration={mGlobalConfig={0.9 404mcc40mnc [en_IN] ldltr sw384dp w384dp h817dp 450dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2408) mAppBounds=Rect(0, 65 - 1080, 2366) mMaxBounds=Rect(0, 0 - 1080, 2408) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=undefined mFreeformTaskPinningState=undefined} s.3042 fontWeightAdjustment=0 ff=0 bf=0 bts=0 enb/d themeSeq=0} mOverrideConfig={0.9 404mcc40mnc [en_IN] ldltr sw384dp w384dp h817dp 450dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2408) mAppBounds=Rect(0, 65 - 1080, 2366) mMaxBounds=Rect(0, 0 - 1080, 2408) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=off mFreeformTaskPinningState=unpinned} s.1 fontWeightAdjustment=0 ff=0 bf=0 bts=0 enb/d themeSeq=0}}
+08-31 19:50:37.227 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.228 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.229 14617 19420 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 110046056
+08-31 19:50:37.231 14809 16178 I MediaSessionMonitor: Media session stopped : controllerList empty
+08-31 19:50:37.231 19225 19225 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427 in: PAUSED
+08-31 19:50:37.232 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.233 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.239 14809 15283 D InputDispatcher: Focused application set to (0): b10d5ac
+08-31 19:50:37.251   634   634 D SurfaceFlinger: Display 4633128508267670401 HWC layers:
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      DEVICE | 0xeb9b9080 | 0100 | RGBx_8888    |  335.0    0.0 1415.0 2408.0 |    0    0 1080 2408 | Wallpaper BBQ wrapper#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      DEVICE | 0xec167500 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | com.sec.android.app.launcher/com.sec[...]activities.LauncherActivity$_15577#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      CLIENT | 0xebe2f480 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |   75  167 1005 2241 | Splash Screen com.example.lunchtray$_15119#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      CLIENT | 0xec168580 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   66.0 |    0    0 1080   66 | StatusBar$_15119#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      CLIENT | 0xec277300 | 0100 | RGBA_8888    |    0.0    0.0  388.0   42.0 |  692 2366 1080 2408 | SGestureOverlayWindow$_15577#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      CLIENT | 0xec97b100 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2273 1080 2408 | NavigationBar0$_15119#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:      DEVICE | 0xec278980 | 0108 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | BlueLightFilter$_15119#0
+08-31 19:50:37.251   634   634 D SurfaceFlinger:
+08-31 19:50:37.255 14809 14828 I SemPersonaManager: SecureFolder personaId = 10
+08-31 19:50:37.263 19225 19225 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@cffb235 in: PRE_ON_CREATE
+08-31 19:50:37.264 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.267 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+08-31 19:50:37.268 14809 14828 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.android.knox.containercore
+08-31 19:50:37.273 14809 16178 I MediaSessionMonitor: Media session stopped : controllerList empty
+08-31 19:50:37.293 19225 19225 I DecorView: [INFO] isPopOver=false, config=true
+08-31 19:50:37.293 19225 19225 I DecorView: updateCaptionType >> DecorView@755f6f6[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+08-31 19:50:37.293 19225 19225 D DecorView: setCaptionType = 0, this = DecorView@755f6f6[]
+08-31 19:50:37.296 19225 19225 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=450 msg=resources_loaded
+08-31 19:50:37.326 19225 19225 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@cffb235 in: CREATED
+08-31 19:50:37.327 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.328 19225 19225 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.341 15577 29018 I RecentModel: onTaskStackChangedBackground
+08-31 19:50:37.343 15577 29018 I RecentTasksList: getTaskKeys, numTasks :3 callback : com.android.quickstep.-$$Lambda$RecentsModel$k1Mm-BV64Bc89eJHYugywZmW_Js@355dddd
+08-31 19:50:37.345 15577 15645 I RecentTasksList: loadTasksInBackground() task id : 1232
+08-31 19:50:37.355 19225 19225 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@cffb235 in: STARTED
+08-31 19:50:37.356 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.357 19225 19225 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.359 19225 19225 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@cffb235 in: RESUMED
+08-31 19:50:37.360 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.361 19225 19225 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@cffb235
+08-31 19:50:37.372 14809 15283 D InputTransport: Input channel constructed: 'bf0cdf3', fd=806
+08-31 19:50:37.372 14809 15283 D InputTransport: Input channel constructed: 'bf0cdf3', fd=809
+08-31 19:50:37.372 14809 15283 D InputTransport: Input channel constructed: 'bf0cdf3', fd=815
+08-31 19:50:37.373   634   807 I SurfaceFlinger: id=151932 createSurf (0x0),-1 flag=80004, bf0cdf3 com.example.lunchtray/com.example.lunchtray.MainActivity#0
+08-31 19:50:37.374 14809 15283 D InputTransport: Input channel destroyed: 'bf0cdf3', fd=815
+08-31 19:50:37.378 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: setView = com.android.internal.policy.DecorView@755f6f6 TM=true
+08-31 19:50:37.379 14809 14868 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+08-31 19:50:37.402 14809 17474 V WindowManager: Relayout Window{bf0cdf3 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2408 d0
+08-31 19:50:37.402   634   807 I SurfaceFlinger: id=151933 createSurf (1x1),-3 flag=40004, com.example.lunchtray/com.example.lunchtray.MainActivity$_19225#0
+08-31 19:50:37.408   634   807 I SurfaceFlinger: id=151934 createSurf (0x0),-1 flag=24000, Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#1
+08-31 19:50:37.410   634   807 I SurfaceFlinger: id=151935 createSurf (0x0),-1 flag=24000, Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#1
+08-31 19:50:37.413 14809 17474 V WindowManager: Relayout hash=bf0cdf3, pid=19225: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030303
+08-31 19:50:37.413 14809 17474 V WindowManager:   fl=81810100
+08-31 19:50:37.413 14809 17474 V WindowManager:   pfl=12020040
+08-31 19:50:37.413 14809 17474 V WindowManager:   bhv=DEFAULT
+08-31 19:50:37.413 14809 17474 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:37.420 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)0 dur=17 res=0x7 s={true 4004536320} ch=true fn=-1
+08-31 19:50:37.422 19225 19293 D OpenGLRenderer: eglCreateWindowSurface
+08-31 19:50:37.430 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11410 android.view.ViewRootImpl.performTraversals:4185 android.view.ViewRootImpl.doTraversal:2911
+08-31 19:50:37.430 19225 19225 D ViewRootImpl@23bb8d5[MainActivity]: Creating frameDrawingCallback nextDrawUseBlastSync=false reportNextDraw=true hasBlurUpdates=false
+08-31 19:50:37.431 19225 19225 D ViewRootImpl@23bb8d5[MainActivity]: Creating frameCompleteCallback
+08-31 19:50:37.441   634   634 I Layer   : id=151929 removeFromCurrentState Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#0 (122)
+08-31 19:50:37.442   634   634 I Layer   : id=151930 removeFromCurrentState Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#0 (122)
+08-31 19:50:37.442   634   634 I SurfaceFlinger: id=151929 Removed Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#0 (122)
+08-31 19:50:37.442 19225 19310 D ViewRootImpl@23bb8d5[MainActivity]: Received frameDrawingCallback frameNum=1. Creating transactionCompleteCallback=false
+08-31 19:50:37.442   634   634 I SurfaceFlinger: id=151930 Removed Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#0 (122)
+08-31 19:50:37.442   634   634 I Layer   : id=151929 Destroyed Surface(name=886bbf6 StatusBar)/@0x2d7ebf5 - animation-leash of insets_animation#0
+08-31 19:50:37.442   634   634 I Layer   : id=151930 Destroyed Surface(name=a8b9824 NavigationBar0)/@0x196e818 - animation-leash of insets_animation#0
+08-31 19:50:37.444 14809 15283 D InputDispatcher: Focus request (0): bf0cdf3 com.example.lunchtray/com.example.lunchtray.MainActivity but waiting because NOT_VISIBLE
+08-31 19:50:37.446 19225 19293 D ViewRootImpl@23bb8d5[MainActivity]: Received frameCompleteCallback  lastAcquiredFrameNum=1 lastAttemptedDrawFrameNum=1
+08-31 19:50:37.448 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4987 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+08-31 19:50:37.448 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: [DP] rdf()
+08-31 19:50:37.449 19225 19225 D ViewRootImpl@23bb8d5[MainActivity]: reportDrawFinished (fn: -1)
+08-31 19:50:37.458 14809 14825 E libperflog: [LIBPERFLOG] socket_local_client fail = -1
+08-31 19:50:37.458 14809 14825 I PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP uid:10307 com.example.lunchtray/com.example.lunchtray.MainActivity thisTime:350
+08-31 19:50:37.460 14809 14825 I ActivityTaskManager: Displayed com.example.lunchtray/.MainActivity: +350ms
+08-31 19:50:37.460 14809 15283 D InputDispatcher: Focus entered window (0): bf0cdf3 com.example.lunchtray/com.example.lunchtray.MainActivity
+08-31 19:50:37.460   634   662 I SurfaceFlinger: id=151936 createSurf (0x0),-1 flag=24000, Surface(name=bf0cdf3 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x256086b - animation-leash of starting_reveal#0
+08-31 19:50:37.460  2385  2385 E pageboostd: Received HALT command code 2
+08-31 19:50:37.468   634   634 D SurfaceFlinger: Display 4633128508267670401 HWC layers:
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      DEVICE | 0xeb9b9080 | 0100 | RGBx_8888    |  335.0    0.0 1415.0 2408.0 |    0    0 1080 2408 | Wallpaper BBQ wrapper#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      DEVICE | 0xec167500 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | com.sec.android.app.launcher/com.sec[...]activities.LauncherActivity$_15577#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      CLIENT | 0xec168880 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    5   11 1075 2397 | com.example.lunchtray/com.example.lunchtray.MainActivity$_19225#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      CLIENT | 0xebe2f480 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    5   11 1075 2397 | Splash Screen com.example.lunchtray$_15119#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      CLIENT | 0xec168580 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   66.0 |    0    0 1080   66 | StatusBar$_15119#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      CLIENT | 0xec277300 | 0100 | RGBA_8888    |    0.0    0.0  388.0   42.0 |  692 2366 1080 2408 | SGestureOverlayWindow$_15577#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      CLIENT | 0xec97b100 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2273 1080 2408 | NavigationBar
+08-31 19:50:37.468   634   634 D SurfaceFlinger: 0$_15119#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:      DEVICE | 0xec278980 | 0108 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | BlueLightFilter$_15119#0
+08-31 19:50:37.468   634   634 D SurfaceFlinger:
+08-31 19:50:37.469 19225 19225 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on com.example.lunchtray/com.example.lunchtray.MainActivity
+08-31 19:50:37.471 19225 19225 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on com.example.lunchtray/com.example.lunchtray.MainActivity
+08-31 19:50:37.474 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+08-31 19:50:37.477 19225 19225 D InputMethodManager: startInputInner - Id : 0
+08-31 19:50:37.477 19225 19225 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+08-31 19:50:37.479 14809 17475 D InputMethodManagerService: mDesktopModeManager null!
+08-31 19:50:37.479 14809 17475 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded : 0
+08-31 19:50:37.480 14809 17475 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+08-31 19:50:37.480 14809 17475 D InputTransport: Input channel constructed: 'ClientS', fd=815
+08-31 19:50:37.480 14809 17475 D InputTransport: Input channel destroyed: 'ClientS', fd=815
+08-31 19:50:37.480 21002 21002 I HBD     : HoneyBoardService onFinishInput
+08-31 19:50:37.481 21002 21002 I HBD     : a IC have been unbinding,  InputConnectionWrapper{idHash=#7d26f97 mMissingMethods=}
+08-31 19:50:37.481 21002 21002 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  319423 ns
+08-31 19:50:37.481 21002 21002 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 19225 , caller uid : 10307
+08-31 19:50:37.481 21002 21002 I HBD     : j updateConfigs
+08-31 19:50:37.481 21002 21002 I HBD     : j isEnabledNightMode : true
+08-31 19:50:37.481 21002 21002 I HBD     : a IC have been binding, InputConnectionWrapper{idHash=#bdab16d mMissingMethods=}
+08-31 19:50:37.481 21002 21002 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+08-31 19:50:37.481 21002 21002 I HBD     : b incognitoMode : false
+08-31 19:50:37.482 21002 21002 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+08-31 19:50:37.482 21002 21002 I HBD     : h getDefaultInputRange : UNKNOWN
+08-31 19:50:37.482 21002 21002 I HBD     : h getDefaultInputRange : UNKNOWN
+08-31 19:50:37.482 21002 21002 I HBD     : h getDefaultInputRange : UNKNOWN
+08-31 19:50:37.482   634  1925 I SurfaceFlinger: id=151937 createSurf (0x0),-1 flag=24004, Surface(name=4ce6435 InputMethod)/@0x855123b - animation-leash of insets_animation#0
+08-31 19:50:37.485 15119 15827 I ViewRootImpl@359e831[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@f969b33 fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-31 19:50:37.485 15119 15827 I ViewRootImpl@359e831[lunchtray]: mWNT: merge t to BBQ
+08-31 19:50:37.486 15119 15827 I ViewRootImpl@359e831[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@2dbcef0 fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-31 19:50:37.486 15119 15827 I ViewRootImpl@359e831[lunchtray]: mWNT: merge t to BBQ
+08-31 19:50:37.488 15119 15282 D MobileStatusTracker(0/1): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-101 rsrp=-101 rsrq=-12 rssnr=-4 cqiTableIndex=2147483647 cqi=7 ta=2147483647 level=3 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=3 },rat=14,primary=CellSignalStrengthLte} level=3
+08-31 19:50:37.488 21002 21002 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+08-31 19:50:37.488 21002 21002 I HBD     : a update cached prediction status : false
+08-31 19:50:37.488 21002 21002 I HBD     : h getDefaultInputRange : UNKNOWN
+08-31 19:50:37.488 21002 21002 I HBD     : a currentState : 0
+08-31 19:50:37.490 15119 15282 D NetworkController: SignalStrength from intent slotId=0
+08-31 19:50:37.491 21002 21002 I HBD     : h load selected json path : /data/user/0/com.samsung.android.honeyboard/files/selected.json
+08-31 19:50:37.491 19225 19225 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231208/com.example.lunchtray:id/start_order_btn>
+08-31 19:50:37.492 21002 21002 I HBD     : h load selected json info : {"version":"4.1","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_spacing"],"engName":"English(India)","id":65555,"inputType":"qwerty","isUsed":true}]}
+08-31 19:50:37.492   634   634 I Layer   : id=151921 removeFromCurrentState Surface(name=4ce6435 InputMethod)/@0x855123b - animation-leash of insets_animation#1 (122)
+08-31 19:50:37.492   634   634 I SurfaceFlinger: id=151921 Removed Surface(name=4ce6435 InputMethod)/@0x855123b - animation-leash of insets_animation#1 (122)
+08-31 19:50:37.493   634   634 I Layer   : id=151921 Destroyed Surface(name=4ce6435 InputMethod)/@0x855123b - animation-leash of insets_animation#1
+08-31 19:50:37.495 21002 21002 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 65555 kit: [0/0] vt: 0 ir: 1
+08-31 19:50:37.496 21002 21002 I HBD     : HoneyBoardService [PF_OP][onStartInput]  14629154 ns
+08-31 19:50:37.497 15119 15828 I ViewRootImpl@359e831[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@e446c69 fN = 3 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-31 19:50:37.497 15119 15828 I ViewRootImpl@359e831[lunchtray]: mWNT: merge t to BBQ
+08-31 19:50:37.497 14809 17475 D InputMethodManagerServicePhysicalKey: isConnectedDexOnPC false
+08-31 19:50:37.497 14809 17475 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+08-31 19:50:37.499 14809 17475 D InputDispatcher: Inject motion (19225): action=0x0, time=702391559000000, f=0x0, d=0
+08-31 19:50:37.500 14809 15283 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/14809@14, type = -999
+08-31 19:50:37.500 14809 14940 I InputDispatcher: Delivering touch to (15119): action: 0x4, f=0x0, d=0, 'a8b9824', t=0
+08-31 19:50:37.501 14809 15283 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/14809@15, type = -999
+08-31 19:50:37.501 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x0, f=0x0, d=0, 'bf0cdf3', t=0 +(-2,-5)*1.00
+08-31 19:50:37.501 14617 14637 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 109868090  [14809 / 14]    HINT : AMS_RESUME_TAIL    list :
+08-31 19:50:37.503 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 0
+08-31 19:50:37.503 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -319353742 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:37.504 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -319353742 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:37.504 14617 14637 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 110060893
+08-31 19:50:37.505 15577 15577 W TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.-$$Lambda$InputConsumer$cayMJybMMyH-XvJ76yEWjWeqQUo@78d20fe
+08-31 19:50:37.510 15119 15827 I ViewRootImpl@359e831[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@e6056ee fN = 4 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-31 19:50:37.510 15119 15827 I ViewRootImpl@359e831[lunchtray]: mWNT: merge t to BBQ
+08-31 19:50:37.526 15119 15309 D OpenGLRenderer: setSurface called with nullptr
+08-31 19:50:37.526 15119 15309 D OpenGLRenderer: setSurface() destroyed EGLSurface
+08-31 19:50:37.527 15119 15309 D OpenGLRenderer: destroyEglSurface
+08-31 19:50:37.529 14809 17475 V WindowManager: Relayout Window{e8df376 u0 Splash Screen com.example.lunchtray}: viewVisibility=8 req=1080x2408 d0
+08-31 19:50:37.531   634  1925 I SurfaceFlinger: id=151938 createSurf (0x0),-1 flag=24000, Surface(name=e8df376 Splash Screen com.example.lunchtray)/@0x64d9275 - animation-leash of window_animation#0
+08-31 19:50:37.537 14809 15283 D InputDispatcher: Inject motion (19225): action=0x1, time=702391600000000, f=0x0, d=0
+08-31 19:50:37.537 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x1, f=0x0, d=0, 'bf0cdf3', t=1 +(0,-14)*1.00
+08-31 19:50:37.538 15577 15577 W TouchInteractionService: reset
+08-31 19:50:37.538 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 1
+08-31 19:50:37.539 14809 17475 V WindowManager: Relayout hash=e8df376, pid=15119: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+08-31 19:50:37.539 14809 17475 V WindowManager:   fl=81030118
+08-31 19:50:37.539 14809 17475 V WindowManager:   pfl=36000010
+08-31 19:50:37.539 14809 17475 V WindowManager:   bhv=DEFAULT
+08-31 19:50:37.539 14809 17475 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:37.539 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -770028606
+08-31 19:50:37.540 15119 15246 I ViewRootImpl@359e831[lunchtray]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)8 dur=10 res=0x5 s={false 0} ch=true fn=5
+08-31 19:50:37.540 15119 15246 I ViewRootImpl@359e831[lunchtray]: dispatchDetachedFromWindow
+08-31 19:50:37.540 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -770028606
+08-31 19:50:37.541 14809 15283 D InputTransport: Input channel destroyed: 'e8df376', fd=687
+08-31 19:50:37.541 14809 15283 W InputManager-JNI: Input channel object 'e8df376 Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+08-31 19:50:37.541 14809 15283 D InputTransport: Input channel destroyed: 'e8df376', fd=695
+08-31 19:50:37.543 15119 15246 D InputTransport: Input channel destroyed: 'e8df376', fd=226
+08-31 19:50:37.558   634   634 I Layer   : id=151936 removeFromCurrentState Surface(name=bf0cdf3 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x256086b - animation-leash of starting_reveal#0 (122)
+08-31 19:50:37.569   634   634 D SurfaceFlinger: Display 4633128508267670401 HWC layers:
+08-31 19:50:37.569   634   634 D SurfaceFlinger:      DEVICE | 0xebe2f300 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | com.example.lunchtray/com.example.lunchtray.MainActivity$_19225#0
+08-31 19:50:37.569   634   634 D SurfaceFlinger:      DEVICE | 0xebe2f480 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | Splash Screen com.example.lunchtray$_15119#0
+08-31 19:50:37.569   634   634 D SurfaceFlinger:      CLIENT | 0xec168580 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   66.0 |    0    0 1080   66 | StatusBar$_15119#0
+08-31 19:50:37.569   634   634 D SurfaceFlinger:      CLIENT | 0xec277300 | 0100 | RGBA_8888    |    0.0    0.0  388.0   42.0 |  692 2366 1080 2408 | SGestureOverlayWindow$_15577#0
+08-31 19:50:37.569   634   634 D SurfaceFlinger:      CLIENT | 0xec97b100 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2273 1080 2408 | NavigationBar0$_15119#0
+08-31 19:50:37.569   634   634 D SurfaceFlinger:      DEVICE | 0xec278980 | 0108 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | BlueLightFilter$_15119#0
+08-31 19:50:37.569   634   634 D SurfaceFlinger:
+08-31 19:50:37.577  7302  7302 I ViewRootImpl@19ab91b[LauncherActivity]: handleAppVisibility mAppVisible=true visible=false
+08-31 19:50:37.577 15577 15577 I ViewRootImpl@6da1f4c[LauncherActivity]: handleAppVisibility mAppVisible=true visible=false
+08-31 19:50:37.579 19225 19225 D ScrollView: initGoToTop
+08-31 19:50:37.579 15119 19776 D WallpaperService: dispatchAppVisibility onVisibilityChanged(): false
+08-31 19:50:37.579 15119 15303 I ImageWallpaper:  onVisibilityChanged false , 0
+08-31 19:50:37.579 15119 15119 D WallpaperService: reportVisibility onVisibilityChanged visible: false
+08-31 19:50:37.591   634   634 I Layer   : id=151927 removeFromCurrentState Surface(name=Task=1)/@0x7c9ef10 - animation-leash of app_transition#0 (122)
+08-31 19:50:37.592   634   634 I SurfaceFlinger: id=151927 Removed Surface(name=Task=1)/@0x7c9ef10 - animation-leash of app_transition#0 (122)
+08-31 19:50:37.592   634   634 I Layer   : id=151927 Destroyed Surface(name=Task=1)/@0x7c9ef10 - animation-leash of app_transition#0
+08-31 19:50:37.593  7302  7688 D OpenGLRenderer: setSurface called with nullptr
+08-31 19:50:37.593  7302  7688 D OpenGLRenderer: setSurface() destroyed EGLSurface
+08-31 19:50:37.593  7302  7688 D OpenGLRenderer: destroyEglSurface
+08-31 19:50:37.606 14809 17475 V WindowManager: Relayout Window{1f13c62 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=8 req=1080x2408 d0
+08-31 19:50:37.608   634   634 I Layer   : id=151928 removeFromCurrentState Surface(name=Task=1232)/@0x34908bd - animation-leash of app_transition#0 (121)
+08-31 19:50:37.608   634   634 I Layer   : id=151926 removeFromCurrentState Splash Screen com.example.lunchtray$_15119#0 (121)
+08-31 19:50:37.608   634   634 I Layer   : id=151925 removeFromCurrentState e8df376 Splash Screen com.example.lunchtray#0 (121)
+08-31 19:50:37.609   634   634 I Layer   : id=151938 removeFromCurrentState Surface(name=e8df376 Splash Screen com.example.lunchtray)/@0x64d9275 - animation-leash of window_animation#0 (121)
+08-31 19:50:37.609 14809 15283 V WindowManager: Relayout Window{d738cd4 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=8 req=1080x2408 d0
+08-31 19:50:37.609   634   634 I SurfaceFlinger: id=151925 Removed e8df376 Splash Screen com.example.lunchtray#0 (121)
+08-31 19:50:37.609   634   634 I SurfaceFlinger: id=151926 Removed Splash Screen com.example.lunchtray$_15119#0 (121)
+08-31 19:50:37.609   634   634 I SurfaceFlinger: id=151928 Removed Surface(name=Task=1232)/@0x34908bd - animation-leash of app_transition#0 (121)
+08-31 19:50:37.609   634   634 I SurfaceFlinger: id=151938 Removed Surface(name=e8df376 Splash Screen com.example.lunchtray)/@0x64d9275 - animation-leash of window_animation#0 (121)
+08-31 19:50:37.610   634   634 I Layer   : id=151938 Destroyed Surface(name=e8df376 Splash Screen com.example.lunchtray)/@0x64d9275 - animation-leash of window_animation#0
+08-31 19:50:37.610   634   634 I Layer   : id=151925 Destroyed e8df376 Splash Screen com.example.lunchtray#0
+08-31 19:50:37.610   634   634 I Layer   : id=151928 Destroyed Surface(name=Task=1232)/@0x34908bd - animation-leash of app_transition#0
+08-31 19:50:37.610 14809 17475 V WindowManager: Relayout hash=1f13c62, pid=7302: mAttrs={(0,0)(fillxfill) gr=LEFT CENTER_HORIZONTAL sim={adjust=resize} layoutInDisplayCutoutMode=shortEdges ty=DRAWN_APPLICATION fmt=TRANSPARENT wanim=0x10302f2 alpha=0.0
+08-31 19:50:37.610 14809 17475 V WindowManager:   fl=81850118
+08-31 19:50:37.610 14809 17475 V WindowManager:   pfl=16020040
+08-31 19:50:37.610 14809 17475 V WindowManager:   bhv=DEFAULT
+08-31 19:50:37.610 14809 17475 V WindowManager:   fitSides= dimAmount=0.0 screenDimDuration=40000 naviIconColor=0}
+08-31 19:50:37.613  7302  7302 I ViewRootImpl@19ab91b[LauncherActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)8 dur=16 res=0x5 s={false 0} ch=true fn=2
+08-31 19:50:37.614   634   634 I Layer   : id=151926 Destroyed Splash Screen com.example.lunchtray$_15119#0
+08-31 19:50:37.615  7302  7302 I A       : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+08-31 19:50:37.616  7302  7302 I A       : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+08-31 19:50:37.616 14809 15283 V WindowManager: Relayout hash=d738cd4, pid=15577: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+08-31 19:50:37.616 14809 15283 V WindowManager:   fl=81910100
+08-31 19:50:37.616 14809 15283 V WindowManager:   pfl=1e020040
+08-31 19:50:37.616 14809 15283 V WindowManager:   vsysui=1700
+08-31 19:50:37.616 14809 15283 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+08-31 19:50:37.616 14809 15283 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:37.619 15577 15577 I ViewRootImpl@6da1f4c[LauncherActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)8 dur=11 res=0x5 s={false 0} ch=true fn=11
+08-31 19:50:37.620 15577 15577 I ViewRootImpl@6da1f4c[LauncherActivity]: stopped(true) old=false
+08-31 19:50:37.621   634   634 D SurfaceFlinger: Display 4633128508267670401 HWC layers:
+08-31 19:50:37.621   634   634 D SurfaceFlinger:      DEVICE | 0xebe2f300 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | com.example.lunchtray/com.example.lunchtray.MainActivity$_19225#0
+08-31 19:50:37.621   634   634 D SurfaceFlinger:      DEVICE | 0xec168580 | 0100 | RGBA_8888    |    0.0    0.0 1080.0   66.0 |    0    0 1080   66 | StatusBar$_15119#0
+08-31 19:50:37.621   634   634 D SurfaceFlinger:      CLIENT | 0xec277300 | 0100 | RGBA_8888    |    0.0    0.0  388.0   42.0 |  692 2366 1080 2408 | SGestureOverlayWindow$_15577#0
+08-31 19:50:37.621   634   634 D SurfaceFlinger:      CLIENT | 0xec97b100 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  135.0 |    0 2273 1080 2408 | NavigationBar0$_15119#0
+08-31 19:50:37.621   634   634 D SurfaceFlinger:      DEVICE | 0xec278980 | 0108 | RGBA_8888    |    0.0    0.0 1080.0 2408.0 |    0    0 1080 2408 | BlueLightFilter$_15119#0
+08-31 19:50:37.621   634   634 D SurfaceFlinger:
+08-31 19:50:37.625 15577 15577 I BaseActivity: removeActivityFlags, flags : 17
+08-31 19:50:37.626   634  3050 I SurfaceFlinger: id=151916 Removed OneUiHome-BlurLayer#0 (117)
+08-31 19:50:37.627 15577 15577 I StateManager: goToState isInState Normal
+08-31 19:50:37.629 15577 15645 I IMM_LC  : hsifw() - flags=0, caller=android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1858 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1827 com.android.launcher3.util.UiThreadHelper$UiCallbacks.handleMessage:103 android.os.Handler.dispatchMessage:102 android.os.Looper.loopOnce:226
+08-31 19:50:37.629 15577 15645 I IMM_LC  : hideSoftInputFromWindow - mService.hideSoftInput
+08-31 19:50:37.631 15577 15577 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:7 flag:start on:false isFront:false
+08-31 19:50:37.633 14809 17475 I AppWidgetServiceImpl: stopListening callbacks : null
+08-31 19:50:37.633 15577 15577 W LauncherAppWidgetHost: stopListening, mFlags:2 isFront:false
+08-31 19:50:37.634 15577 15577 W Launcher.NotificationListener: removeNotificationsChangedListener
+08-31 19:50:37.634 15577 15577 I BadgeCountUpdaterImpl: onNotificationsChangedDisConnected
+08-31 19:50:37.634 15577 15577 I Launcher.NotificationListener: unregisterObserver, this is not notificationService!!
+08-31 19:50:37.635 15577 15645 I LiveIconUpdateEventHandler: LiveIcon onStop
+08-31 19:50:37.636 15577 15645 I LiveIconUpdateEventHandler: cancelMinuteChangeAlarm
+08-31 19:50:37.639 15577 15645 I LiveIconUpdateEventHandler: cancelDateChangeAlarm
+08-31 19:50:37.642 15577 15645 I LiveIconUpdateEventHandler: unregisterReceiver
+08-31 19:50:37.642  9116  9116 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+08-31 19:50:37.643  9116  9219 I HwDetectorWithState: (REDACTED) a: %d
+08-31 19:50:37.674   634   634 I Layer   : id=151912 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_7302#0 (117)
+08-31 19:50:37.674   634   634 I Layer   : id=151913 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_15577#0 (117)
+08-31 19:50:37.675   634   634 I Layer   : id=151916 removeFromCurrentState OneUiHome-BlurLayer#0 (117)
+08-31 19:50:37.675   634   634 I SurfaceFlinger: id=151913 Removed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_15577#0 (117)
+08-31 19:50:37.675   634   634 I SurfaceFlinger: id=151912 Removed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_7302#0 (117)
+08-31 19:50:37.675   634   634 I Layer   : id=151913 Destroyed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_15577#0
+08-31 19:50:37.675   634   634 I Layer   : id=151916 Destroyed OneUiHome-BlurLayer#0
+08-31 19:50:37.676   634   634 I Layer   : id=151912 Destroyed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_7302#0
+08-31 19:50:37.705 14701 15029 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 0.0.0.0
+08-31 19:50:37.705 14701 15029 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 3, et : 0
+08-31 19:50:37.705 14701 15029 I bauth_FPBAuthService: FPBAuthService, 11756
+08-31 19:50:37.744 14809 17475 V WindowManager: Relayout Window{bf0cdf3 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2408 d0
+08-31 19:50:37.747 14809 17475 V WindowManager: Relayout hash=bf0cdf3, pid=19225: mAttrs={(0,0)(fillxfill) sim={adjust=resize} ty=BASE_APPLICATION wanim=0x1030303
+08-31 19:50:37.747 14809 17475 V WindowManager:   fl=81810100
+08-31 19:50:37.747 14809 17475 V WindowManager:   pfl=12020040
+08-31 19:50:37.747 14809 17475 V WindowManager:   bhv=DEFAULT
+08-31 19:50:37.747 14809 17475 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:37.751 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)0 dur=7 res=0x1 s={true 4004536320} ch=false fn=18
+08-31 19:50:37.753 19225 19225 D ScrollView:  onsize change changed
+08-31 19:50:37.773 19225 19225 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427 in: STOPPED
+08-31 19:50:37.774 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.775 19225 19225 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ee73427
+08-31 19:50:37.802 14809 14826 I GestureDetector: handleMessage TAP
+08-31 19:50:37.803 14809 14809 I GestureDetector: handleMessage TAP
+08-31 19:50:37.917 14809 15035 I SemWifiServiceDetector: Traff. tracking resumed
+08-31 19:50:37.952 14617 19430 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 109868090
+08-31 19:50:38.001 19225 19225 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230844/com.example.lunchtray:id/cauliflower>
+08-31 19:50:38.004 14809 17475 D InputDispatcher: Inject motion (19225): action=0x0, time=702392068000000, f=0x0, d=0
+08-31 19:50:38.004 14809 14940 I InputDispatcher: Delivering touch to (15119): action: 0x4, f=0x0, d=0, 'a8b9824', t=0
+08-31 19:50:38.004 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x0, f=0x0, d=0, 'bf0cdf3', t=0
+08-31 19:50:38.005 15577 15577 W TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.-$$Lambda$InputConsumer$cayMJybMMyH-XvJ76yEWjWeqQUo@78d20fe
+08-31 19:50:38.005 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -972969671 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:38.005 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 0
+08-31 19:50:38.006 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -972969671 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:38.044 14809 17475 D InputDispatcher: Inject motion (19225): action=0x1, time=702392108000000, f=0x0, d=0
+08-31 19:50:38.044 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x1, f=0x0, d=0, 'bf0cdf3', t=1
+08-31 19:50:38.045 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 1
+08-31 19:50:38.045 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -217030363
+08-31 19:50:38.045 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -217030363
+08-31 19:50:38.046 15577 15577 W TouchInteractionService: reset
+08-31 19:50:38.305 14809 14826 I GestureDetector: handleMessage TAP
+08-31 19:50:38.306 14809 14809 I GestureDetector: handleMessage TAP
+08-31 19:50:38.311 19225 19225 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231081/com.example.lunchtray:id/next_button>
+08-31 19:50:38.314 14809 17475 D InputDispatcher: Inject motion (19225): action=0x0, time=702392378000000, f=0x0, d=0
+08-31 19:50:38.314 14809 14940 I InputDispatcher: Delivering touch to (15119): action: 0x4, f=0x0, d=0, 'a8b9824', t=0
+08-31 19:50:38.314 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x0, f=0x0, d=0, 'bf0cdf3', t=0
+08-31 19:50:38.314 15577 15577 W TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.-$$Lambda$InputConsumer$cayMJybMMyH-XvJ76yEWjWeqQUo@78d20fe
+08-31 19:50:38.315 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 0
+08-31 19:50:38.316 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -940512167 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:38.317 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -940512167 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:38.355 14809 17475 D InputDispatcher: Inject motion (19225): action=0x1, time=702392420000000, f=0x0, d=0
+08-31 19:50:38.356 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x1, f=0x0, d=0, 'bf0cdf3', t=1
+08-31 19:50:38.356 15577 15577 W TouchInteractionService: reset
+08-31 19:50:38.356 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 1
+08-31 19:50:38.357 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -102618051
+08-31 19:50:38.358 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -102618051
+08-31 19:50:38.384 19225 19225 D ScrollView: initGoToTop
+08-31 19:50:38.429 14809 15035 D SemNscXgbMsL1: Probability - Cloud gaming: [0.013927084]
+08-31 19:50:38.429 14809 15035 D SemNscXgbMsL1: Probability - Real time: [0.019671049]
+08-31 19:50:38.430 14809 15035 D SemNscXgbMsL1: Probability - Non real time: [0.89535385]
+08-31 19:50:38.430 14809 15035 D SemNscXgbMsL1: 1 sample inference time: 1.094615 msecs
+08-31 19:50:38.431 14809 15035 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.019 msecs
+08-31 19:50:38.432 14809 15035 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.734538 msecs
+08-31 19:50:38.483 19225 19225 D ScrollView:  onsize change changed
+08-31 19:50:38.616 14617 19408 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 138419856
+08-31 19:50:38.616 14809 14809 I GestureDetector: handleMessage TAP
+08-31 19:50:38.617 14809 14826 I GestureDetector: handleMessage TAP
+08-31 19:50:38.705 14701 15029 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 0.0.0.0
+08-31 19:50:38.705 14701 15029 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 3, et : 0
+08-31 19:50:38.705 14701 15029 I bauth_FPBAuthService: FPBAuthService, 11756
+08-31 19:50:38.721 19225 19225 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231187/com.example.lunchtray:id/soup>
+08-31 19:50:38.724 14809 15283 D InputDispatcher: Inject motion (19225): action=0x0, time=702392788000000, f=0x0, d=0
+08-31 19:50:38.724 14809 14940 I InputDispatcher: Delivering touch to (15119): action: 0x4, f=0x0, d=0, 'a8b9824', t=0
+08-31 19:50:38.724 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x0, f=0x0, d=0, 'bf0cdf3', t=0
+08-31 19:50:38.725 15577 15577 W TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.-$$Lambda$InputConsumer$cayMJybMMyH-XvJ76yEWjWeqQUo@78d20fe
+08-31 19:50:38.725 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -416911083 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:38.725 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 0
+08-31 19:50:38.726 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -416911083 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:38.764 14809 15283 D InputDispatcher: Inject motion (19225): action=0x1, time=702392828000000, f=0x0, d=0
+08-31 19:50:38.764 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x1, f=0x0, d=0, 'bf0cdf3', t=1
+08-31 19:50:38.765 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -681410444
+08-31 19:50:38.765 15577 15577 W TouchInteractionService: reset
+08-31 19:50:38.765 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 1
+08-31 19:50:38.765 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -681410444
+08-31 19:50:38.934 14809 15035 D SemNscXgbMsL1: Probability - Cloud gaming: [0.033902943]
+08-31 19:50:38.934 14809 15035 D SemNscXgbMsL1: Probability - Real time: [0.027971087]
+08-31 19:50:38.934 14809 15035 D SemNscXgbMsL1: Probability - Non real time: [0.9151614]
+08-31 19:50:38.934 14809 15035 D SemNscXgbMsL1: 1 sample inference time: 0.5015 msecs
+08-31 19:50:38.935 14809 15035 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.939154 msecs
+08-31 19:50:38.936 14809 15035 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.688693 msecs
+08-31 19:50:39.025 14809 14809 I GestureDetector: handleMessage TAP
+08-31 19:50:39.025 14809 14826 I GestureDetector: handleMessage TAP
+08-31 19:50:39.026 19225 19225 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230842/com.example.lunchtray:id/cancel_button>
+08-31 19:50:39.029 14809 15283 D InputDispatcher: Inject motion (19225): action=0x0, time=702393093000000, f=0x0, d=0
+08-31 19:50:39.030 14809 14940 I InputDispatcher: Delivering touch to (15119): action: 0x4, f=0x0, d=0, 'a8b9824', t=0
+08-31 19:50:39.030 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x0, f=0x0, d=0, 'bf0cdf3', t=0
+08-31 19:50:39.030 15577 15577 W TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.-$$Lambda$InputConsumer$cayMJybMMyH-XvJ76yEWjWeqQUo@78d20fe
+08-31 19:50:39.030 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -802335654 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:39.031 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -802335654 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:39.031 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 0
+08-31 19:50:39.069 14809 15283 D InputDispatcher: Inject motion (19225): action=0x1, time=702393133000000, f=0x0, d=0
+08-31 19:50:39.069 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x1, f=0x0, d=0, 'bf0cdf3', t=1
+08-31 19:50:39.069 15577 15577 W TouchInteractionService: reset
+08-31 19:50:39.069 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -67917634
+08-31 19:50:39.070 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 1
+08-31 19:50:39.070 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -67917634
+08-31 19:50:39.132 14809 15283 V WindowManager: Relayout Window{bf0cdf3 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2408 d0
+08-31 19:50:39.135 14809 15283 V WindowManager: Relayout hash=bf0cdf3, pid=19225: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=BASE_APPLICATION wanim=0x1030303
+08-31 19:50:39.135 14809 15283 V WindowManager:   fl=81810100
+08-31 19:50:39.135 14809 15283 V WindowManager:   pfl=12020040
+08-31 19:50:39.135 14809 15283 V WindowManager:   bhv=DEFAULT
+08-31 19:50:39.135 14809 15283 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:39.138 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)0 dur=6 res=0x1 s={true 4004536320} ch=false fn=68
+08-31 19:50:39.330 14809 14826 I GestureDetector: handleMessage TAP
+08-31 19:50:39.331 14809 14809 I GestureDetector: handleMessage TAP
+08-31 19:50:39.371 19225 19225 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231208/com.example.lunchtray:id/start_order_btn>
+08-31 19:50:39.374 14809 15283 D InputDispatcher: Inject motion (19225): action=0x0, time=702393438000000, f=0x0, d=0
+08-31 19:50:39.375 14809 14940 I InputDispatcher: Delivering touch to (15119): action: 0x4, f=0x0, d=0, 'a8b9824', t=0
+08-31 19:50:39.375 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x0, f=0x0, d=0, 'bf0cdf3', t=0
+08-31 19:50:39.375 15577 15577 W TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.-$$Lambda$InputConsumer$cayMJybMMyH-XvJ76yEWjWeqQUo@78d20fe
+08-31 19:50:39.375 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -110802293 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:39.375 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 0
+08-31 19:50:39.376 14809 14826 I GestureDetector: obtain mCurrentDownEvent. id: -110802293 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-31 19:50:39.416 14809 15340 D InputDispatcher: Inject motion (19225): action=0x1, time=702393480000000, f=0x0, d=0
+08-31 19:50:39.416 14809 14940 I InputDispatcher: Delivering touch to (19225): action: 0x1, f=0x0, d=0, 'bf0cdf3', t=1
+08-31 19:50:39.416 15577 15577 W TouchInteractionService: reset
+08-31 19:50:39.416 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -95042144
+08-31 19:50:39.416 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: ViewPostIme pointer 1
+08-31 19:50:39.417 14809 14826 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -95042144
+08-31 19:50:39.434 19225 19225 D ScrollView: initGoToTop
+08-31 19:50:39.437 14809 15035 D SemNscXgbMsL1: Probability - Cloud gaming: [0.01139229]
+08-31 19:50:39.438 14809 15035 D SemNscXgbMsL1: Probability - Real time: [0.023152959]
+08-31 19:50:39.438 14809 15035 D SemNscXgbMsL1: Probability - Non real time: [0.9065161]
+08-31 19:50:39.438 14809 15035 D SemNscXgbMsL1: 1 sample inference time: 1.012116 msecs
+08-31 19:50:39.440 14809 15035 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.982038 msecs
+08-31 19:50:39.441 14809 15035 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.713192 msecs
+08-31 19:50:39.529 14809 15340 V WindowManager: Relayout Window{bf0cdf3 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2408 d0
+08-31 19:50:39.532 14809 15340 V WindowManager: Relayout hash=bf0cdf3, pid=19225: mAttrs={(0,0)(fillxfill) sim={adjust=resize} ty=BASE_APPLICATION wanim=0x1030303
+08-31 19:50:39.532 14809 15340 V WindowManager:   fl=81810100
+08-31 19:50:39.532 14809 15340 V WindowManager:   pfl=12020040
+08-31 19:50:39.532 14809 15340 V WindowManager:   bhv=DEFAULT
+08-31 19:50:39.532 14809 15340 V WindowManager:   fitSides= naviIconColor=0}
+08-31 19:50:39.536 19225 19225 I ViewRootImpl@23bb8d5[MainActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) req=(1080,2408)0 dur=7 res=0x1 s={true 4004536320} ch=false fn=78
+08-31 19:50:39.538 19225 19225 D ScrollView:  onsize change changed
+08-31 19:50:39.675 14809 14826 I GestureDetector: handleMessage TAP
+08-31 19:50:39.676 14809 14809 I GestureDetector: handleMessage TAP
+08-31 19:50:39.705 14701 15029 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 0.0.0.0
+08-31 19:50:39.705 14701 15029 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 3, et : 0
+08-31 19:50:39.706 14701 15029 I bauth_FPBAuthService: FPBAuthService, 11756
+08-31 19:50:39.735 15119 15119 D NetworkController.WifiSignalController: notifyListener: visible=true, enabled=true, connected=true, inetCondition=1, isDefault=true, receivedCR=true, receivedIC=-1, shouldForceHide=false, emptyConnected=false
+08-31 19:50:39.809 19225 19225 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: $0.00"
+08-31 19:50:39.810 19225 19225 E ViewAssertions: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)' check could not be performed because view 'an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: $0.00"' was not found.
+08-31 19:50:39.811 19225 19284 E TestRunner: failed: order_reset_after_cancel_from_side_menu(com.example.lunchtray.OrderFunctionalityTests)
+08-31 19:50:39.812 19225 19284 E TestRunner: ----- begin exception -----
+08-31 19:50:39.813 19225 19284 E TestRunner: androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: $0.00"
+08-31 19:50:39.813 19225 19284 E TestRunner:
+08-31 19:50:39.813 19225 19284 E TestRunner: View Hierarchy:
+08-31 19:50:39.813 19225 19284 E TestRunner: +>DecorView{id=-1, visibility=VISIBLE, width=1080, height=2408, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030303
+08-31 19:50:39.813 19225 19284 E TestRunner:   fl=81810100
+08-31 19:50:39.813 19225 19284 E TestRunner:   pfl=10020040
+08-31 19:50:39.813 19225 19284 E TestRunner:   bhv=DEFAULT
+08-31 19:50:39.813 19225 19284 E TestRunner:   fitSides= naviIconColor=0}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +->LinearLayout{id=-1, visibility=VISIBLE, width=1080, height=2366, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@448c798, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +-->ViewStub{id=16908722, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@75d7bf1, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +-->FrameLayout{id=-1, visibility=VISIBLE, width=1080, height=2300, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@644e657, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=66.0, child-count=1}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +--->ActionBarOverlayLayout{id=2131230893, res-name=decor_content_parent, visibility=VISIBLE, width=1080, height=2300, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@75de762, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1080, height=2142, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@694f1b0, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=158.0, child-count=1}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----->ConstraintLayout{id=2131230877, res-name=container, visibility=VISIBLE, width=1080, height=2142, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@1b717ae, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +------>FragmentContainerView{id=2131231069, res-name=nav_host_fragment, visibility=VISIBLE, width=1080, height=2142, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@44f78dc, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +------->FragmentContainerView{id=2131231069, res-name=nav_host_fragment, visibility=VISIBLE, width=1080, height=2142, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@a6100ba, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +-------->ScrollView{id=-1, visibility=VISIBLE, width=1080, height=1560, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@9c946c8, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +--------->ConstraintLayout{id=-1, visibility=VISIBLE, width=1080, height=1560, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@9d2ed12, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=5}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---------->RadioGroup{id=2131230936, res-name=entree_options, visibility=VISIBLE, width=990, height=1209, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@a2cbec2, tag=null, root-is-layout-requested=false, has-input-connection=false, x=45.0, y=0.0, child-count=15}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialRadioButton{id=2131230844, res-name=cauliflower, visibility=VISIBLE, width=313, height=135, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@33884d3, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=Cauliflower, input-type=0, ime-target=false, has-links=false, is-checked=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131230845, res-name=cauliflower_description, visibility=VISIBLE, width=844, height=47, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@5bb0810, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=135.0, text=Whole cauliflower, brined, roasted, and deep fried, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131230846, res-name=cauliflower_price, visibility=VISIBLE, width=136, height=70, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@9777f09, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=182.0, text=₹7.00, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->View{id=-1, visibility=VISIBLE, width=990, height=3, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@a8c050e, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=275.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialRadioButton{id=2131230858, res-name=chili, visibility=VISIBLE, width=406, height=135, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@dfc9b2f, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=278.0, text=Three Bean Chili, input-type=0, ime-target=false, has-links=false, is-checked=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131230859, res-name=chili_description, visibility=VISIBLE, width=990, height=88, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@130953c, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=413.0, text=Black beans, red beans, kidney beans, slow cooked, topped with onion, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131230860, res-name=chili_price, visibility=VISIBLE, width=136, height=70, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@79002c5, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=501.0, text=₹4.00, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->View{id=-1, visibility=VISIBLE, width=990, height=3, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@287641a, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=594.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialRadioButton{id=2131231106, res-name=pasta, visibility=VISIBLE, width=410, height=135, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@a41bb4b, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=597.0, text=Mushroom Pasta, input-type=0, ime-target=false, has-links=false, is-checked=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131231107, res-name=pasta_description, visibility=VISIBLE, width=990, height=88, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@c0fc928, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=732.0, text=Penne pasta, mushrooms, basil, with plum tomatoes cooked in garlic and olive oil, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131231108, res-name=pasta_price, visibility=VISIBLE, width=136, height=70, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@ef30641, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=820.0, text=₹5.50, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->View{id=-1, visibility=VISIBLE, width=990, height=3, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@a7a7e6, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=913.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialRadioButton{id=2131231175, res-name=skillet, visibility=VISIBLE, width=552, height=135, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@e6ec127, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=916.0, text=Spicy Black Bean Skillet, input-type=0, ime-target=false, has-links=false, is-checked=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131231176, res-name=skillet_description, visibility=VISIBLE, width=990, height=88, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@f2c4fd4, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1051.0, text=Seasonal vegetables, black beans, house spice blend, served with avocado and quick pickled onions, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----------->MaterialTextView{id=2131231177, res-name=skillet_price, visibility=VISIBLE, width=136, height=70, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RadioGroup$LayoutParams@828c57d, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1139.0, text=₹5.50, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---------->View{id=2131230910, res-name=divider, visibility=VISIBLE, width=990, height=3, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@1365c72, tag=null, root-is-layout-requested=false, has-input-connection=false, x=45.0, y=1232.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---------->MaterialTextView{id=2131231217, res-name=subtotal, visibility=VISIBLE, width=279, height=55, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@67c48c3, tag=null, root-is-layout-requested=false, has-input-connection=false, x=756.0, y=1280.0, text=Subtotal: ₹0.00, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---------->MaterialButton{id=2131230842, res-name=cancel_button, visibility=VISIBLE, width=473, height=135, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@ae89540, tag=null, root-is-layout-requested=false, has-input-connection=false, x=45.0, y=1380.0, text=Cancel, input-type=0, ime-target=false, has-links=false, is-checked=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---------->MaterialButton{id=2131231081, res-name=next_button, visibility=VISIBLE, width=472, height=135, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@2013c79, tag=null, root-is-layout-requested=false, has-input-connection=false, x=563.0, y=1380.0, text=Next, input-type=0, ime-target=false, has-links=false, is-checked=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +---->ActionBarContainer{id=2131230780, res-name=action_bar_container, visibility=VISIBLE, width=1080, height=158, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@161c56c, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----->Toolbar{id=2131230778, res-name=action_bar, visibility=VISIBLE, width=1080, height=158, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@75bcc58, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +------>AppCompatTextView{id=-1, visibility=VISIBLE, width=598, height=75, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@e6901b1, tag=null, root-is-layout-requested=false, has-input-connection=false, x=202.0, y=41.0, text=fragment_entree_menu, input-type=0, ime-target=false, has-links=false}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +------>ActionMenuView{id=-1, visibility=VISIBLE, width=0, height=158, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@11fd696, tag=null, root-is-layout-requested=false, has-input-connection=false, x=1080.0, y=0.0, child-count=0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +------>AppCompatImageButton{id=-1, desc=Navigate up, visibility=VISIBLE, width=158, height=158, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@bf44217, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +----->ActionBarContextView{id=2131230787, res-name=action_context_bar, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@7ed5604, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1080, height=42, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@b5b07ed, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2366.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: |
+08-31 19:50:39.813 19225 19284 E TestRunner: +->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1080, height=66, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@7ac622, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at java.lang.Thread.getStackTrace(Thread.java:1724)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at com.example.lunchtray.OrderFunctionalityTests.order_reset_after_cancel_from_side_menu(OrderFunctionalityTests.kt:221)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)
+08-31 19:50:39.813 19225 19284 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2261)
+08-31 19:50:39.813 19225 19284 E TestRunner: ----- end exception -----
+08-31 19:50:39.820 19225 19284 I TestRunner: finished: order_reset_after_cancel_from_side_menu(com.example.lunchtray.OrderFunctionalityTests)
